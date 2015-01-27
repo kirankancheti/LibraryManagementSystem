@@ -1,6 +1,7 @@
 # LibraryManagementSystem
 
-LIBRARY MANAGEMENT SYSTEM Kiran Kancheti
+LIBRARY MANAGEMENT SYSTEM 
+Kiran Kancheti
 RDBMS:-MYSQL
 WEB DEVOLOPMENT :-Java/J2EE/Java Script/CSS/HTML5
 SERVER :- APACHE TOMCAT 6
@@ -24,7 +25,7 @@ CHECK OUT:-
 Check out fails, if any of below conditions are not met.
 1) Books are not available
 2) Maximum number of books to be borrowed on the card exceeded.(Maximum allowed is 3)
-3) Any fines to be paid.
+3) Any fines to be paid. 
 BORROWER MANAGEMENT:-
 Will not allow to create the new user, if fname,lname,address matches.
 LIBRARY FINES:-
