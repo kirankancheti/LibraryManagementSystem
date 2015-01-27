@@ -7,12 +7,16 @@ WEB DEVOLOPMENT :-Java/J2EE/Java Script/CSS/HTML5
 SERVER :- APACHE TOMCAT 6
 IDE :- ECLLIPSE JUNO
 
-Design of the application was done by creating an user –friendly GUI using CSS,
-JavaScript, HTML5.The layout was applied to entire UI. An user friendly GUI was devoloped,as GUI
-makes the difference between good application and better application.
+Application was devoloped with an user –friendly GUI using CSS,
+JavaScript, HTML5.The same CSS layout was applied to all the web pages in the project.
+Designed GUI attractively,as GUI gives the real feel of the application.
+MVC architecture pattern was implemented.
+MYSQL was used as Relational Database.
+
 SEARCH MODULE:
 Inputs can be either of book_name,book_id,author name. Hence a radio button was used in UI as the
 inputs are treated disjoint.The substring function works for book_name and author name.
+
 CHECK-IN:-
 Search can be performed by borrower card number,borrower name,isbn. Hint questions were added for
 librarians for the easy understanding of the inputs to be provided using css appropriately.
@@ -21,11 +25,13 @@ librarians can check out multiple books at a time.
 *The librarians will be notified, if the user needs to pay any fines w.r.t to the books which he is
 returning. So that the librarians can warn the user about the fine which he needs to pay. For this
 feature, a warning message with red color will be displayed.
+
 CHECK OUT:-
 Check out fails, if any of below conditions are not met.
 1) Books are not available
 2) Maximum number of books to be borrowed on the card exceeded.(Maximum allowed is 3)
 3) Any fines to be paid. 
+
 BORROWER MANAGEMENT:-
 Will not allow to create the new user, if fname,lname,address matches.
 LIBRARY FINES:-
