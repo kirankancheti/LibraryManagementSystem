@@ -22,7 +22,7 @@ public class DBConn {
             // Create a connection to the local MySQL server, with the "company" database selected.
             //        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "root", "mypassword");
             // Create a connection to the local MySQL server, with the NO database selected.
-                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "kigosa842");
+                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "xxxxxx");
     
 			System.out.println("Success!!");
 		} catch (SQLException ex) {
